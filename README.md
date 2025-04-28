@@ -48,7 +48,7 @@ kubectl apply -f app2.yaml
 kubectl create namespace logging
 ```
 ```sh
-kubectl apply -f elasticsearch-updated.yaml
+kubectl apply -f elasticsearch.yaml
 ```
 
 ### Verify Elasticsearch Pod & PVC
@@ -97,7 +97,7 @@ kubectl get all -n logging
 Listen for container logs from /var/log/containers/*.log
 
 ```sh
-kubectl apply -f filebeat-kubernetes-updated.yaml
+kubectl apply -f filebeat.yaml
 ```
 
 
@@ -145,7 +145,7 @@ kubectl exec -n logging -it <logstash-pod> -- cat /usr/share/logstash/pipeline/l
 
 ## Now, Deploy and Log an NGINX application
 ```sh
-kubectl apply -f nginx-deployment.yaml
+kubectl apply -f nginx.yaml
 ```
 
 ### Expose Nginx with Minikube Tunnel (Open URL in browser)
