@@ -1,6 +1,7 @@
 # ELK Stack (Elasticsearch, Logstash, Filebeat, Kibana) to Collect Logs from Applications On Kubernetes Cluster
 In this video, we use the ELK Stack to collect logs of applications deployed on a Kubernetes cluster. 
 
+YouTube Link: https://youtu.be/A3W7ZZsBmn4?si=XOfX-FbMNVHKcxA6
 
 ## Requirements
 
