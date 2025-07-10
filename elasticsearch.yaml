@@ -8,8 +8,8 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 2Gi
-  storageClassName: standard
+      storage: 5Gi
+  storageClassName: hostpath
 ---
 apiVersion: apps/v1
 kind: Deployment
